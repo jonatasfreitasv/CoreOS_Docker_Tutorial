@@ -17,8 +17,23 @@ coreos:
       command: start
   </code></pre>
 
-#build command
-<pre><code>docker build -t nome_da_imagem .  </code></pre>
 
-#run command
-<pre><code>docker run -d -p 80:80 --name="nome_do_docker" -t nome_da_imagem  </code></pre>
+#Docker Commands
+<pre><code>
+//Listar containers
+docker ps (em execução) ou ps -l (para listar todos as imagens)
+
+//Listar imagens baixadas
+docker images
+
+//Utilizado para criar uma imagem do Docker com as instruções do Dockerfile
+docker build -t nome_da_imagem .
+
+//Executar um container
+docker run -d -p porta_srv:porta_docker --name="nome_do_docker" -t nome_da_imagem
+
+//Acessar Docker em execução
+PID=$(docker inspect --f '{{.State.Pid}}' CONTAINER_ID)
+sudo nsenter --target $PID --mount --uts --ipc --net --pid
+</code></pre>
+
