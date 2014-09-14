@@ -1,5 +1,8 @@
+Este reposítorio pode não fazer sentido se você não assistir os videos no link: http://xxxx.com
+
 #user-data
 <pre><code>
+#cloud-config
 coreos:
   etcd: key here
     # generate a new token for each unique cluster from https://discovery.etcd.io/new
