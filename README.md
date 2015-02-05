@@ -1,4 +1,7 @@
-Este reposítorio pode não fazer sentido se você não assistir os videos no link:
+Este reposítorio pode não fazer sentido se você não assistir os videos.
+
+#Step 1
+(CoreOS + Docker + Amazon Web Services + Apache/PHP + Linux Dash)
 
 https://www.youtube.com/audio?video_referrer=watch&v=-m_FiDCR4uE
 
