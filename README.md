@@ -3,7 +3,7 @@ Este reposítorio pode não fazer sentido se você não assistir os videos.
 #Step 1
 (CoreOS + Docker + Amazon Web Services + Apache/PHP + Linux Dash)
 
-https://www.youtube.com/audio?video_referrer=watch&v=-m_FiDCR4uE
+https://www.youtube.com/watch?v=-m_FiDCR4uE
 
 #user-data
 <pre><code>
